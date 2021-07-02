@@ -3,7 +3,7 @@
     $email = $_SESSION['applicantEmail'];
     $age = $_SESSION['applicantAge'];
     $exp = $_SESSION['applicantexp'];
-
+test test
     $informations = array($username,$email,$age,$exp);
     ?>
     <?php foreach($informations as $information):?> 
